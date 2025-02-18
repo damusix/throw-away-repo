@@ -1,7 +1,4 @@
 {
   "name": "throw-away-repo",
-  "packageManager": "yarn@4.3.1",
-  "devDependencies": {
-    "why-is-node-running": "^3.2.2"
-  }
+  "packageManager": "yarn@4.3.1"
 }

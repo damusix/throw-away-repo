@@ -8,16 +8,5 @@ __metadata:
 "throw-away-repo@workspace:.":
   version: 0.0.0-use.local
   resolution: "throw-away-repo@workspace:."
-  dependencies:
-    why-is-node-running: "npm:^3.2.2"
   languageName: unknown
   linkType: soft
-
-"why-is-node-running@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "why-is-node-running@npm:3.2.2"
-  bin:
-    why-is-node-running: cli.js
-  checksum: 10c0/47307bfc2f48dd5228a92103dc43a7cadafbc6b6791c114fd27e03ac271a5082849a54f7e5f5cb261ea68f0d4ad40d9cb503b55812a6b62e67de0c57039fb95b
-  languageName: node
-  linkType: hard
