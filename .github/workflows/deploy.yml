@@ -7,10 +7,12 @@ on:
       - completed
     branches:
       - production
-      - main
+      - development
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ github.event.workflow_run.head_sha }} ${{ github.event.workflow_run.head_branch }}"
+      - run: |
+        echo "${{ github.event.workflow_run.head_sha }}"
+        echo  "${{ github.event.workflow_run.head_branch }}""
